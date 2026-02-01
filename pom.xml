@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>me.antibypass</groupId>
+  <artifactId>AntiBypass</artifactId>
+  <version>1.0.0</version>
+
+  <repositories>
+    <repository>
+      <id>spigot</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+    <repository>
+      <id>dmulloy2</id>
+      <url>https://repo.dmulloy2.net/repository/public/</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.21-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.comphenix.protocol</groupId>
+      <artifactId>ProtocolLib</artifactId>
+      <version>5.2.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
